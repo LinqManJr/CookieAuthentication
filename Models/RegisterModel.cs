@@ -5,7 +5,7 @@ namespace CookieAuthentication.Models
     public class RegisterModel
     {
         [Required(ErrorMessage = "Please, input email")]
-        [DataType(DataType.EmailAddress)]
+        
         public string Email { get; set; }
         [Required(ErrorMessage = "Password not set")]
         [DataType(DataType.Password)]
